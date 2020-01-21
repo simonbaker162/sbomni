@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 
-<html lang="en">
+<html lang="en" dir="ltr">
 
 <head>
 
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Omnifood</title>
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/grid.css">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/queries.css">
 
 
 </head>
@@ -20,7 +22,7 @@
 
         <nav>
             <div class="row nav-bar">
-                <img src="resources/logo-white.png" alt="Omnifood logo" class="logo">
+                <img src="../resources/logo-white.png" alt="Omnifood logo" class="logo">
                 <ul class="main-nav">
                     <li><a class="nav-link" href="#">Food Delivery</a></li>
                     <li><a class="nav-link" href="#">How It Works</a></li>
@@ -210,31 +212,221 @@
             <div class="col span-1-of-3 customer-box">
                 <blockquote>Omnifood is just awesome! I just launched a start-up which leaves me with no time for
                     cooking, so Omnifood is a life-saver. Now I've gotten used to it, I couldn't live without my daily
-                    meals!</blockquote>
+                    meals!
+                    <cite><img src="resources/customer-1.jpg" class="customer-photo" alt="Customer photo 1">Alberto
+                        Duncan</cite>
+                </blockquote>
             </div>
             <div class="col span-1-of-3 customer-box">
                 <blockquote>Inexpensive, healthy and great-tasting meals, delivered right to my home. We have lots of
                     options for food delivery here in Lisbon, but no-one comes even close to Omifood. Me and my family
-                    are so in love!</blockquote>
+                    are so in love!
+                    <cite><img src="resources/customer-2.jpg" class="customer-photo" alt="Customer photo 2">Joanna
+                        Silva</cite>
+                </blockquote>
             </div>
             <div class="col span-1-of-3 customer-box">
-                <blockquote>I was looking for a quick and easy food delivery service in San Francisco. I tried a lot of
-                    them and stopped looking when I found Omnifood. Best food delivery service in the Bay Area. Keep up
-                    the great work!</blockquote>
-            </div>
-        </div>
-        <div class="row customer-photo-row">
-            <div class="col span-1-of-3">
-                <cite><img src="resources/customer-1.jpg" class="customer-photo" alt="Customer photo 1">Alberto Duncan</cite>
-            </div>
-            <div class="col span-1-of-3">
-                <cite><img src="resources/customer-2.jpg" class="customer-photo" alt="Customer photo 2">Joanna Silva</cite>
-            </div>
-            <div class="col span-1-of-3">
-                <cite><img src="resources/customer-3.jpg" class="customer-photo" alt="Customer photo 3">Milton Chapman</cite>
+                <blockquote>I was looking for a quick and easy food delivery service in San Francisco. I tried a
+                    lot of them and stopped looking when I found Omnifood. Best food delivery service in the Bay Area.
+                    Keep up the great work!
+                    <cite><img src="resources/customer-3.jpg" class="customer-photo" alt="Customer photo 3">Milton
+                        Chapman</cite>
+                </blockquote>
             </div>
         </div>
     </section>
+
+    <section class="plans-section">
+        <div class="row">
+            <h2>START EATING HEALTHY TODAY</h2>
+        </div>
+        <div class="row">
+            <div class="col span-1-of-3">
+                <div class="plan-box">
+                    <div>
+                        <h3>PREMIUM</h3>
+                        <p class="plan-price">£299<span> / month</span></p>
+                        <p class="price-meal">£9.97 / meal</p>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>
+                                <ion-icon name="checkmark-circle-outline" class="plans-icon"></ion-icon>1 meal every day
+                            </li>
+                            <li>
+                                <ion-icon name="checkmark-circle-outline" class="plans-icon"></ion-icon>Order 24/7
+                            </li>
+                            <li>
+                                <ion-icon name="checkmark-circle-outline" class="plans-icon"></ion-icon>Access to newest
+                                creations
+                            </li>
+                            <li>
+                                <ion-icon name="checkmark-circle-outline" class="plans-icon"></ion-icon>Free delivery
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <a href="#" class="btn btn-full">Sign up now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col span-1-of-3">
+                <div class="plan-box">
+                    <div>
+                        <h3>PRO</h3>
+                        <p class="plan-price">£129<span> / month</span></p>
+                        <p class="price-meal">£12.90 / meal</p>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>
+                                <ion-icon name="checkmark-circle-outline" class="plans-icon"></ion-icon>1 meal 10
+                                days/month
+                            </li>
+                            <li>
+                                <ion-icon name="checkmark-circle-outline" class="plans-icon"></ion-icon>Order 24/7
+                            </li>
+                            <li>
+                                <ion-icon name="checkmark-circle-outline" class="plans-icon"></ion-icon>Access to newest
+                                creations
+                            </li>
+                            <li>
+                                <ion-icon name="checkmark-circle-outline" class="plans-icon"></ion-icon>Free delivery
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <a href="#" class="btn btn-ghost">Sign up now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col span-1-of-3">
+                <div class="plan-box">
+                    <div>
+                        <h3>STARTER</h3>
+                        <p class="plan-price">£14.99<span> / meal</span></p>
+                        <p class="price-meal">&nbsp;</p>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>
+                                <ion-icon name="checkmark-circle-outline" class="plans-icon"></ion-icon>1 meal
+                            </li>
+                            <li>
+                                <ion-icon name="checkmark-circle-outline" class="plans-icon"></ion-icon>Order between
+                                8am and midnight
+                            </li>
+                            <li>
+                                <ion-icon name="checkmark-circle-outline" class="plans-icon"></ion-icon>Free delivery
+                            </li>
+                            <li>
+                                &nbsp;
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <a href="#" class="btn btn-ghost">Sign up now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-section">
+        <div class="row">
+            <h2>WE'RE HAPPY TO HEAR FROM YOU</h2>
+        </div>
+        <div class="row form-container">
+            <form method="post" action="#" class="contact-form">
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="name">Name</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="text" name="name" id="name" placeholder="Your name" required></input>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="email">E-mail</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="email" name="email" id="email" placeholder="Your e-mail" required></input>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="find-us">How did you find us?</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <select name="find-us" id="find-us" required>
+                            <option value="friends-family" selected>Friends or Family</option>
+                            <option value="search-engine">Search Engine</option>
+                            <option value="advertisement">Advertisement</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label>Receive newsletter?</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="checkbox" name="news" id="news" checked>Yes, please
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label>Drop us a line</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <textarea name="message" placeholder="Your message" required></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label>&nbsp;</label>
+                    </div>
+                    <div class="col span-2-of-3 div-submit">
+                        <input type="submit" value="Submit message">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="row">
+            <div class="col span-1-of-2">
+                <ul class="footer-nav">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Press</a></li>
+                    <li><a href="#">iOS App</a></li>
+                    <li><a href="#">Android App</a></li>
+                </ul>
+            </div>
+            <div class="col span-1-of-2">
+                <ul class="footer-socials">
+                    <li><a href="#">
+                            <ion-icon name="logo-googleplus"></ion-icon>
+                        </a></li>
+                    <li><a href="#">
+                            <ion-icon name="logo-twitter"></ion-icon>
+                        </a></li>
+                    <li><a href="#">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a></li>
+                    <li><a href="#">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                        </a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row copyright">
+            <p>Copyright &copy; 2020 by Omnifood. All rights reserved.</p>
+        </div>
+    </footer>
 
 
     <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
