@@ -216,13 +216,20 @@ header {
 }
 
 
-.logo {
-  height: 15rem;
+.logo, .logo-black {
+  height: 12rem;
   width: auto;
   float: left;
   position: relative;
   margin: 3rem 0 3rem;
 }
+
+.logo-black {
+  display: none;
+}
+
+
+/* Main nav */
 
 .main-nav {
   list-style: none;
@@ -253,6 +260,35 @@ header {
   border-bottom: 0.2rem solid #e67e22;
 }
 
+
+/* Sticky nav */
+
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 0.2rem 0.2rem #efefef;
+  z-index: 999;
+}
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+  color: #555;
+  padding: 0.4rem 0;
+}
+
+.sticky .logo {
+  display: none;
+}
+
+.sticky .logo-black {
+  display: block;
+  height: 6rem;
+  width: auto;
+  margin: 0.5rem 0 0.5rem;
+}
 
 /* -------------------------------- */
 /* Meals Section */
