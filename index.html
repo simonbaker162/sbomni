@@ -23,26 +23,27 @@
         <nav>
             <div class="row nav-bar">
                 <img src="resources/logo-white.png" alt="Omnifood logo" class="logo">
+                <img src="resources/logo.png" alt="Omnifood logo" class="logo-black">
                 <ul class="main-nav">
-                    <li><a class="nav-link" href="#">Food Delivery</a></li>
-                    <li><a class="nav-link" href="#">How It Works</a></li>
-                    <li><a class="nav-link" href="#">Our Cities</a></li>
-                    <li><a class="nav-link" href="#">Sign Up</a></li>
+                    <li><a class="nav-link js--features" href="#features">Food Delivery</a></li>
+                    <li><a class="nav-link js--how" href="#how">How It Works</a></li>
+                    <li><a class="nav-link js--cities" href="#cities">Our Cities</a></li>
+                    <li><a class="nav-link js--sign-up" href="#sign-up">Sign Up</a></li>
             </div>
         </nav>
 
         <div class="hero-text-box">
             <h1>Goodbye junk food.<br>Hello super healthy meals.</h1>
-            <a class="btn btn-full" href="#">I'm hungry</a>
-            <a class="btn btn-ghost" href="#">Show me more</a>
+            <a class="btn btn-full js--scroll-to-plans" href="#">I'm hungry</a>
+            <a class="btn btn-ghost js--scroll-to-features" href="#">Show me more</a>
         </div>
 
     </header>
 
-    <section class="features-section">
+    <section class="features-section js--features-section" id="features">
 
         <div class="row">
-            <h2>GET HEALTHY FOOD FAST &mdash; NOT FAST FOOD.</h2>
+            <h2>GET HEALTHY FOOD FAST &mdash; NOT FAST FOOD</h2>
             <p class="long-copy">Hello! We’re Omnifood, your new premium food delivery service. We know you’re always
                 busy, with no time for cooking. So let us take care of that. </p>
         </div>
@@ -89,8 +90,8 @@
                 </figure>
             </li>
             <li>
-                <figure><img src="resources/2.jpg" alt="Simple italian pizza with cherry tomatoes"
-                        class="meal-image"></figure>
+                <figure><img src="resources/2.jpg" alt="Simple italian pizza with cherry tomatoes" class="meal-image">
+                </figure>
             </li>
             <li>
                 <figure><img src="resources/3.jpg" alt="Chicken breast steak with vegetables" class="meal-image">
@@ -119,7 +120,7 @@
         </ul>
     </section>
 
-    <section class="how-section">
+    <section class="how-section js--how-section" id="how">
         <div class="row">
             <h2>HOW IT WORKS</h2>
         </div>
@@ -144,15 +145,14 @@
                     <p>Enjoy your meal after less than 20 minutes. See you the next time!</p>
                 </div>
                 <div class="app-buttons">
-                    <a href="#" class="btn-app"><img src="resources/download-ios.svg"
-                            alt="Download the app on iOS"></a>
+                    <a href="#" class="btn-app"><img src="resources/download-ios.svg" alt="Download the app on iOS"></a>
                     <a href="#" class="btn-app"><img src="resources/download-android.png"
                             alt="Download the app on Android"></a>
                 </div>
             </div>
     </section>
 
-    <section class="cities-section">
+    <section class="cities-section js--cities-section" id="cities">
         <div class="row">
             <h2>WE'RE CURRENTLY IN THESE CITIES</h2>
         </div>
@@ -236,7 +236,7 @@
         </div>
     </section>
 
-    <section class="plans-section">
+    <section class="plans-section js--plans-section" id="sign-up">
         <div class="row">
             <h2>START EATING HEALTHY TODAY</h2>
         </div>
@@ -430,7 +430,8 @@
 
 
     <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
-    <script src="js/index.js" charset="utf-8"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/index.js"></script>
 
 </body>
 
