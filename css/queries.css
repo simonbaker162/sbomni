@@ -206,7 +206,7 @@
     }
 
     .footer-socials li {
-        float: left;
+        float: right;
         margin-right: 2rem;
         margin-left: 0;
     }
@@ -216,7 +216,7 @@
     }
 
     .footer-nav li a {
-        font-size: 2rem;
+        font-size: 1.6rem;
     }
 
     footer {
@@ -256,5 +256,13 @@
 
     .btn:link, .btn:visited {
         padding: 1.5rem;
+    }
+
+    .footer-nav li a {
+        font-size: 1.4rem;
+    }
+
+    .footer-socials li {
+        margin: 0 3rem;
     }
 }
