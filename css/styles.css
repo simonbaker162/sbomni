@@ -197,7 +197,7 @@ header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url("../resources/hero.jpg");
   background-size: cover;
   background-position: center;
-/*   background-attachment: fixed; */
+  /* background-attachment: fixed; */
   height: 100vh;
   position: relative;
 }
@@ -417,7 +417,8 @@ margin-right: 2rem;
 .testimonials-section {
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../resources/back-customers.jpg");
   background-size: cover;
-/*   background-attachment: fixed; */
+  background-position: center;
+  /* background-attachment: fixed; */
   color: #fff;
 }
 
